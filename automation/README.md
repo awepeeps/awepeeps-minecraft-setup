@@ -17,9 +17,9 @@ without Docker, network, or a live server.
 | `backup-verify.sh` | Offline integrity, allowlisted plugin-path safety, and extraction check of one archive (or the newest). |
 | `backup-scheduled.sh` | Phase gate around `backup.sh`: runs only in the active test/live phase, otherwise no-ops before touching Docker or storage. |
 | `install-plugins.sh` | Downloads a manifest's pinned jars, verifies each SHA-256, and copies them into `plugins/`. Skips placeholders and non-jar (source-built) entries. |
-| `build-chestcleaner.sh` | Builds Awepeeps-ChestCleaner from its pinned commit and verifies the jar against the manifest. |
-| `build-bluemap-compass.sh` | Builds Awepeeps-BlueMap-Compass from its pinned commit and verifies the jar. |
-| `build-spawn-kit.sh` | Builds Awepeeps-SpawnKit (test-only) from its pinned commit and verifies the jar. |
+| `build-chestcleaner.sh` | Builds awepeeps-chestcleaner from its pinned commit and verifies the jar against the manifest. |
+| `build-bluemap-compass.sh` | Builds awepeeps-bluemap-compass from its pinned commit and verifies the jar. |
+| `build-spawn-kit.sh` | Builds awepeeps-spawn-kit (test-only) from its pinned commit and verifies the jar. |
 | `daily-reset.sh` | Guarded, self-expiring disposable-test world reset under the lifecycle lock. See `../docs/world-reset.md`. |
 | `bluemap-spawn-view.py` | Points each BlueMap map at the fresh world spawn and enforces the inhabited-time policy after a reset (`--check` reports, `--apply` edits atomically). Reads `world/level.dat` (gzip NBT) and fails closed. See `../docs/bluemap.md`. |
 | `whitelist-check.sh` | Read-only verify that the mounted `server.properties` still enforces `white-list`/`enforce-whitelist`. Fails closed (exit 1 when off, 2 on bad input). See `../docs/whitelist.md`. |

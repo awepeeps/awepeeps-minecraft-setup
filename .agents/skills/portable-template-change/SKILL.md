@@ -1,6 +1,6 @@
 ---
 name: portable-template-change
-description: Make or port a change to the public Awepeeps-Minecraft-Setup template so it stays portable and sanitized. Use when editing templates, scripts, docs, or plugin pins, or when importing work from the private deployment.
+description: Make or port a change to the public awepeeps-minecraft-setup template so it stays portable and sanitized. Use when editing templates, scripts, docs, or plugin pins, or when importing work from the private deployment.
 ---
 
 # Portable template change
@@ -12,7 +12,7 @@ values and secrets, and must reproduce on a clean host.
 
 1. Confirm the change belongs here: a generic template, guide, automation
    script, or pin format. Instance-specific configuration and live pins belong
-   in the private `Awepeeps-Minecraft-Deployment` repo.
+   in the private `awepeeps-minecraft-deployment` repo.
 2. If porting from the private deployment, edit file-by-file. Replace **every**
    instance value with a placeholder: `<SERVER_HOST>`, `<instance-data>`,
    `/srv/minecraft`, `CHANGE_ME`. Never copy a file verbatim and never merge

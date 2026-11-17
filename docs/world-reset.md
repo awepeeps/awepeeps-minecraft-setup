@@ -80,7 +80,7 @@ See [bluemap.md](bluemap.md) for what it reads and how it fails closed.
 
 ## Spawn Kit chunk loading (test servers only)
 
-Awepeeps-SpawnKit is test-only. From 1.2.x onward the plugin loads the chunks it
+awepeeps-spawn-kit is test-only. From 1.2.x onward the plugin loads the chunks it
 needs with its own chunk tickets and releases them when the build finishes, so the
 reset does **not** force-load a spawn area on the plugin's behalf. A leftover
 `forceload` would be permanent. The reset clears the one-time issuance record after
