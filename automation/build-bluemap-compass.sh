@@ -13,7 +13,7 @@ source "$src_env"
 : "${BLUEMAP_COMPASS_SOURCE_REPOSITORY:?set BLUEMAP_COMPASS_SOURCE_REPOSITORY in $src_env}"
 : "${BLUEMAP_COMPASS_SOURCE_COMMIT:?set BLUEMAP_COMPASS_SOURCE_COMMIT in $src_env}"
 : "${BLUEMAP_COMPASS_VERSION:?set BLUEMAP_COMPASS_VERSION in $src_env}"
-[[ "$BLUEMAP_COMPASS_SOURCE_REPOSITORY" == "https://github.com/Awepeeps/Awepeeps-BlueMap-Compass.git" ]] || die 'BLUEMAP_COMPASS_SOURCE_REPOSITORY must be the Awepeeps-BlueMap-Compass repository'
+[[ "$BLUEMAP_COMPASS_SOURCE_REPOSITORY" == "https://github.com/awepeeps/awepeeps-bluemap-compass.git" ]] || die 'BLUEMAP_COMPASS_SOURCE_REPOSITORY must be the awepeeps-bluemap-compass repository'
 [[ "$BLUEMAP_COMPASS_SOURCE_COMMIT" =~ ^[0-9a-f]{40}$ ]] || die 'BLUEMAP_COMPASS_SOURCE_COMMIT must be a full 40-character commit'
 [[ "$BLUEMAP_COMPASS_VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+-awepeeps\.[0-9]+$ ]] || die 'BLUEMAP_COMPASS_VERSION must look like x.y.z-awepeeps.n'
 

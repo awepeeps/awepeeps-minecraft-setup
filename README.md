@@ -10,14 +10,14 @@ map, permissions, verified backups).
 
 This project is deliberately split in two:
 
-- **`Awepeeps-Minecraft-Setup` (this repository) — public, generic, portable.**
+- **`awepeeps-minecraft-setup` (this repository) — public, generic, portable.**
   It is the template for a fresh server. It contains **no secrets, no personal
   data and no instance-specific values** — no real hostnames, IPs, ports that are
   not defaults, usernames, home-directory paths, MCSManager ids, player names or
   UUIDs, whitelist/ops contents, world seeds, coordinates, Discord ids, webhook
   URLs, tokens or passwords. Everything instance-specific is a placeholder such
   as `<SERVER_HOST>`, `/srv/minecraft`, or `CHANGE_ME`.
-- **`Awepeeps-Minecraft-Deployment` — private, the real running instance.** The
+- **`awepeeps-minecraft-deployment` — private, the real running instance.** The
   only place instance values and secrets may live.
 
 Do not copy a file from the private deployment into this repository verbatim.
@@ -32,8 +32,8 @@ Never merge the private repository's history into this one.
   owner-reviewed manual approval for new Java and Bedrock players.
 - Bedrock cross-play via Geyser + Floodgate.
 - ViaVersion + ViaBackwards, LuckPerms, EssentialsX Core, BlueMap,
-  BlueMap Offline Player Markers, Awepeeps-ChestCleaner,
-  Awepeeps-BlueMap-Compass, and (test-only) Awepeeps-SpawnKit are the selected
+  BlueMap Offline Player Markers, awepeeps-chestcleaner,
+  awepeeps-bluemap-compass, and (test-only) awepeeps-spawn-kit are the selected
   portable stack. BlueMap terrain can be held between scheduled render batches;
   live player and marker layers remain separate. EssentialsX Core is
   selected, but its manifest entry stays an inactive placeholder until you
@@ -50,7 +50,7 @@ Never merge the private repository's history into this one.
 ## Quick start
 
 ```bash
-git clone https://github.com/Awepeeps/Awepeeps-Minecraft-Setup.git /srv/minecraft/setup
+git clone https://github.com/awepeeps/awepeeps-minecraft-setup.git /srv/minecraft/setup
 cd /srv/minecraft/setup
 cp .env.example .env            # fill in; .env is gitignored
 docker compose up -d            # MCSManager panel
@@ -90,10 +90,10 @@ validation, and a secret scan.
 
 ## Contribution workflow
 
-The org repository is canonical: `Awepeeps/Awepeeps-Minecraft-Setup`.
-- `origin` is your personal fork; `upstream` is the org.
-- Work on a branch, push to `origin`, and open a pull request against the org's
-  `main`.
+The org repository is canonical: `awepeeps/awepeeps-minecraft-setup`, cloned as
+`origin`.
+- Work on a branch in that repository and open a pull request against `main`;
+  `origin` is where branches are pushed.
 - The running instance is managed in the separate private deployment repository.
 - The group's plugins are maintained in their own public repos under the
   `Awepeeps` org (see [`plugins/README.md`](plugins/README.md)).

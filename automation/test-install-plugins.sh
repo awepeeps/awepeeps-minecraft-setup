@@ -32,7 +32,7 @@ cat > "$tmp/nonhttps.list" <<EOF
 Good|fixture|1.0.0|http://example.invalid/Good-1.0.0.jar|$good_sha
 EOF
 cat > "$tmp/notajar.list" <<EOF
-Compass|source commit abc|1.0.0|https://github.com/Awepeeps/Awepeeps-BlueMap-Compass/tree/abc|$good_sha
+Compass|source commit abc|1.0.0|https://github.com/awepeeps/awepeeps-bluemap-compass/tree/abc|$good_sha
 EOF
 
 failures=0

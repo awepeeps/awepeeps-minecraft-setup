@@ -14,7 +14,7 @@ source "$src_env"
 : "${CHESTCLEANER_SOURCE_COMMIT:?set CHESTCLEANER_SOURCE_COMMIT in $src_env}"
 : "${CHESTCLEANER_VERSION:?set CHESTCLEANER_VERSION in $src_env}"
 # Plugin source and its toolchain live in the independent maintained repository.
-[[ "$CHESTCLEANER_SOURCE_REPOSITORY" == "https://github.com/Awepeeps/Awepeeps-ChestCleaner.git" ]] || die 'CHESTCLEANER_SOURCE_REPOSITORY must be the Awepeeps-ChestCleaner repository'
+[[ "$CHESTCLEANER_SOURCE_REPOSITORY" == "https://github.com/awepeeps/awepeeps-chestcleaner.git" ]] || die 'CHESTCLEANER_SOURCE_REPOSITORY must be the awepeeps-chestcleaner repository'
 [[ "$CHESTCLEANER_SOURCE_COMMIT" =~ ^[0-9a-f]{40}$ ]] || die 'CHESTCLEANER_SOURCE_COMMIT must be a full 40-character commit'
 [[ "$CHESTCLEANER_VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+-awepeeps\.[0-9]+$ ]] || die 'CHESTCLEANER_VERSION must look like x.y.z-awepeeps.n'
 

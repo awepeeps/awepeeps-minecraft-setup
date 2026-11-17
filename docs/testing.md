@@ -7,7 +7,7 @@ for, any live server.
 
 ## Repository boundaries
 
-- **Awepeeps-Minecraft-Setup (this repository)** is public. It contains portable
+- **awepeeps-minecraft-setup (this repository)** is public. It contains portable
   templates and documentation with generic placeholders.
 - **The deployment repository** is private. It owns instance-specific version
   pins, live configuration, and the guarded test harness. Keep these materials,
@@ -16,7 +16,7 @@ for, any live server.
   defaults to disabled and empty; the consuming server supplies its own item
   list and optional inclusive date window. Keep test-only pins and configuration
   out of live-season plugin sets.
-- **Awepeeps-BlueMap-Compass** is separately maintained public source code for
+- **awepeeps-bluemap-compass** is separately maintained public source code for
   custom compass navigation.
 
 Do not copy private deployment documentation or history into this repository.
