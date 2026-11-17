@@ -90,10 +90,10 @@ validation, and a secret scan.
 
 ## Contribution workflow
 
-The org repository is canonical: `awepeeps/awepeeps-minecraft-setup`.
-- `origin` is your personal fork; `upstream` is the org.
-- Work on a branch, push to `origin`, and open a pull request against the org's
-  `main`.
+The org repository is canonical: `awepeeps/awepeeps-minecraft-setup`, cloned as
+`origin`.
+- Work on a branch in that repository and open a pull request against `main`;
+  `origin` is where branches are pushed.
 - The running instance is managed in the separate private deployment repository.
 - The group's plugins are maintained in their own public repos under the
   `Awepeeps` org (see [`plugins/README.md`](plugins/README.md)).

@@ -19,8 +19,8 @@ everything you commit is visible to everyone.
 
 ## Before you open a pull request
 
-1. Work on a branch of your fork (`origin`); open the pull request against the
-   org repository's `main`. See the README's contribution workflow.
+1. Work on a branch in the org repository (`origin`); open the pull request
+   against the org repository's `main`. See the README's contribution workflow.
 2. Run the mock test suites. They need no Docker, network, or live server:
 
    ```bash

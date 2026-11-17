@@ -53,6 +53,6 @@ Any shell, config, or doc change must keep `run-tests.sh` and CI green.
 
 Read
 [.agents/skills/portable-template-change/SKILL.md](.agents/skills/portable-template-change/SKILL.md)
-for the sanitizing-port workflow. `origin` is your fork; `upstream` is the org.
-PRs target `awepeeps/awepeeps-minecraft-setup`, and history never crosses into a
-private repo.
+for the sanitizing-port workflow. `origin` is the org repository. Branches live
+in that repo, and PRs target `awepeeps/awepeeps-minecraft-setup`; history never
+crosses into a private repo.
