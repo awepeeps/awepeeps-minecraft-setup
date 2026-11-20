@@ -2,7 +2,7 @@
 
 Scope: **every file in this repository** (repo-wide). This is the public,
 portable setup template. The private running instance lives in
-`awepeeps-minecraft-deployment`.
+`minecraft-deployment`.
 
 ## What this repo is
 

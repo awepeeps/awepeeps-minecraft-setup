@@ -17,7 +17,7 @@ This project is deliberately split in two:
   UUIDs, whitelist/ops contents, world seeds, coordinates, Discord ids, webhook
   URLs, tokens or passwords. Everything instance-specific is a placeholder such
   as `<SERVER_HOST>`, `/srv/minecraft`, or `CHANGE_ME`.
-- **`awepeeps-minecraft-deployment` — private, the real running instance.** The
+- **`minecraft-deployment` — private, the real running instance.** The
   only place instance values and secrets may live.
 
 Do not copy a file from the private deployment into this repository verbatim.

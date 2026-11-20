@@ -12,7 +12,7 @@ values and secrets, and must reproduce on a clean host.
 
 1. Confirm the change belongs here: a generic template, guide, automation
    script, or pin format. Instance-specific configuration and live pins belong
-   in the private `awepeeps-minecraft-deployment` repo.
+   in the private `minecraft-deployment` repo.
 2. If porting from the private deployment, edit file-by-file. Replace **every**
    instance value with a placeholder: `<SERVER_HOST>`, `<instance-data>`,
    `/srv/minecraft`, `CHANGE_ME`. Never copy a file verbatim and never merge
