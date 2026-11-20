@@ -41,8 +41,8 @@ Floodgate|GeyserMC download|2.2.5|TODO_DIRECT_JAR_URL|TODO_64_HEX_SHA256
 # --- Awepeeps plugins (built from a pinned source commit) --------------------
 # Replace TODO_COMMIT with a full 40-character commit and fill the sha256 by
 # running the matching automation/build-*.sh and reading its verified output.
-ChestCleaner|awepeeps-chestcleaner source commit TODO_COMMIT|2.4.5-awepeeps.3|https://github.com/awepeeps/awepeeps-chestcleaner/tree/TODO_COMMIT|TODO_64_HEX_SHA256
-AwepeepsBlueMapCompass|awepeeps-bluemap-compass source commit TODO_COMMIT|1.4.1-awepeeps.12|https://github.com/awepeeps/awepeeps-bluemap-compass/tree/TODO_COMMIT|TODO_64_HEX_SHA256
+ChestCleaner|chestcleaner source commit TODO_COMMIT|2.4.5-awepeeps.3|https://github.com/awepeeps/chestcleaner/tree/TODO_COMMIT|TODO_64_HEX_SHA256
+AwepeepsBlueMapCompass|bluemap-compass source commit TODO_COMMIT|1.4.1-awepeeps.12|https://github.com/awepeeps/bluemap-compass/tree/TODO_COMMIT|TODO_64_HEX_SHA256
 
 # Legacy note: Awepeeps-Whitelist-Gate is retired from the recommended setup.
 # Manual whitelist approval is documented in docs/whitelist.md.

@@ -4,4 +4,4 @@
 # Awepeeps Spawn Kit places a starter house, supply chest, spawn pad and
 # BlueMap spawn marker into disposable test worlds. Build it with
 # automation/build-spawn-kit.sh and install only on a test server.
-AwepeepsSpawnKit|awepeeps-spawn-kit source commit TODO_COMMIT|1.3.3|https://github.com/awepeeps/awepeeps-spawn-kit/tree/TODO_COMMIT|TODO_64_HEX_SHA256
+AwepeepsSpawnKit|spawn-kit source commit TODO_COMMIT|1.3.3|https://github.com/awepeeps/spawn-kit/tree/TODO_COMMIT|TODO_64_HEX_SHA256

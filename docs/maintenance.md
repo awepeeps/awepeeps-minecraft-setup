@@ -108,7 +108,7 @@ for `min-inhabited-time` and rerender behavior.
 ## Shared marker policy
 
 Allow administrator-managed spawn markers, the shared waypoint layer published
-by awepeeps-bluemap-compass, and the separate display-only BlueMap Offline
+by bluemap-compass, and the separate display-only BlueMap Offline
 Player Markers set. Players sneak-right-click a permitted lodestone or banner
 with a compass to create or remove a waypoint. Keep waypoint targets
 administrator-controlled; in-game item requirements do not hide the shared map

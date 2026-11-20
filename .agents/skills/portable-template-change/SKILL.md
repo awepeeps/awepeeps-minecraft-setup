@@ -1,6 +1,6 @@
 ---
 name: portable-template-change
-description: Make or port a change to the public awepeeps-minecraft-setup template so it stays portable and sanitized. Use when editing templates, scripts, docs, or plugin pins, or when importing work from the private deployment.
+description: Make or port a change to the public minecraft-setup template so it stays portable and sanitized. Use when editing templates, scripts, docs, or plugin pins, or when importing work from the private deployment.
 ---
 
 # Portable template change

@@ -48,7 +48,7 @@ outside the git checkout and outside each other.
 sudo mkdir -p /srv/minecraft
 sudo chown "$USER":"$USER" /srv/minecraft
 mkdir -p /srv/minecraft/instances /srv/minecraft/backups
-git clone https://github.com/awepeeps/awepeeps-minecraft-setup.git /srv/minecraft/setup
+git clone https://github.com/awepeeps/minecraft-setup.git /srv/minecraft/setup
 cd /srv/minecraft/setup
 cp .env.example .env    # fill this in; .env is gitignored
 ```

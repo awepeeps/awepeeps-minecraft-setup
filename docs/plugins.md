@@ -57,7 +57,7 @@ private pins here.
 | WorldGuard, GriefPrevention, WorldEdit, Chunky, Spark, PlaceholderAPI, and other suggested additions | Unevaluated; not selected. | Suggestions were not reviewed deeply enough to call them rejected or compatible. For each, first define a concrete need, then review maintenance, permissions, data/backup impact, Paper and Bedrock behavior, and test evidence. |
 
 Bedrock waypoint visuals are tracked externally in the plugin's own issue tracker,
-[awepeeps-bluemap-compass issue #5](https://github.com/awepeeps/awepeeps-bluemap-compass/issues/5).
+[bluemap-compass issue #5](https://github.com/awepeeps/bluemap-compass/issues/5).
 That issue, not this page, carries the detail; it is not a plugin-selection TODO and
 does not gate the current stack.
 

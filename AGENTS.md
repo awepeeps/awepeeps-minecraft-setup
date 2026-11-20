@@ -1,4 +1,4 @@
-# AGENTS.md — awepeeps-minecraft-setup
+# AGENTS.md — minecraft-setup
 
 Scope: **every file in this repository** (repo-wide). This is the public,
 portable setup template. The private running instance lives in
@@ -54,5 +54,5 @@ Any shell, config, or doc change must keep `run-tests.sh` and CI green.
 Read
 [.agents/skills/portable-template-change/SKILL.md](.agents/skills/portable-template-change/SKILL.md)
 for the sanitizing-port workflow. `origin` is the org repository. Branches live
-in that repo, and PRs target `awepeeps/awepeeps-minecraft-setup`; history never
+in that repo, and PRs target `awepeeps/minecraft-setup`; history never
 crosses into a private repo.

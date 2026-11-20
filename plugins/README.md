@@ -33,9 +33,9 @@ verification.
 
 | Plugin | Repository | Purpose | Test-only |
 |---|---|---|---|
-| Awepeeps ChestCleaner | [awepeeps-chestcleaner](https://github.com/awepeeps/awepeeps-chestcleaner) | Maintained fork of ChestCleaner: brush-driven container and inventory sorting with server-set defaults. | No |
-| Awepeeps BlueMap Compass | [awepeeps-bluemap-compass](https://github.com/awepeeps/awepeeps-bluemap-compass) | Waypoints/compass integration with BlueMap (lodestone/banner markers, no teleport). | No |
-| Awepeeps Spawn Kit | [awepeeps-spawn-kit](https://github.com/awepeeps/awepeeps-spawn-kit) | Starter house + supply chest, a protected spawn pad, and a BlueMap spawn marker. | **Yes — test only** |
+| Awepeeps ChestCleaner | [chestcleaner](https://github.com/awepeeps/chestcleaner) | Maintained fork of ChestCleaner: brush-driven container and inventory sorting with server-set defaults. | No |
+| Awepeeps BlueMap Compass | [bluemap-compass](https://github.com/awepeeps/bluemap-compass) | Waypoints/compass integration with BlueMap (lodestone/banner markers, no teleport). | No |
+| Awepeeps Spawn Kit | [spawn-kit](https://github.com/awepeeps/spawn-kit) | Starter house + supply chest, a protected spawn pad, and a BlueMap spawn marker. | **Yes — test only** |
 
 Version strings currently present in the manifests are template references,
 not a claim about what is installed or validated on any particular server.
@@ -45,7 +45,7 @@ reviewing its artifact or source commit and jar digest. No plugin version is
 self-updating.
 
 **Retired:** the older `Navigator` plugin is no longer current. Its roles were
-split into awepeeps-spawn-kit (spawn features) and awepeeps-bluemap-compass
+split into spawn-kit (spawn features) and bluemap-compass
 (navigation/waypoints). Do not pin or install it.
 
 ## How the group's own plugins are released and pinned

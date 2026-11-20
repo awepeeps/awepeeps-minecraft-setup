@@ -13,7 +13,7 @@ source "$src_env"
 : "${SPAWN_KIT_SOURCE_REPOSITORY:?set SPAWN_KIT_SOURCE_REPOSITORY in $src_env}"
 : "${SPAWN_KIT_SOURCE_COMMIT:?set SPAWN_KIT_SOURCE_COMMIT in $src_env}"
 : "${SPAWN_KIT_VERSION:?set SPAWN_KIT_VERSION in $src_env}"
-[[ "$SPAWN_KIT_SOURCE_REPOSITORY" == "https://github.com/awepeeps/awepeeps-spawn-kit.git" ]] || die 'SPAWN_KIT_SOURCE_REPOSITORY must be the awepeeps-spawn-kit repository'
+[[ "$SPAWN_KIT_SOURCE_REPOSITORY" == "https://github.com/awepeeps/spawn-kit.git" ]] || die 'SPAWN_KIT_SOURCE_REPOSITORY must be the spawn-kit repository'
 [[ "$SPAWN_KIT_SOURCE_COMMIT" =~ ^[0-9a-f]{40}$ ]] || die 'SPAWN_KIT_SOURCE_COMMIT must be a full 40-character commit'
 [[ "$SPAWN_KIT_VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || die 'SPAWN_KIT_VERSION must look like x.y.z'
 

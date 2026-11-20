@@ -181,7 +181,7 @@ provider and may fall back to Mojang. Review the provider and metrics policies
 for your deployment before enabling it.
 
 Persistent POI markers are limited to administrator-managed static markers and
-waypoints published by awepeeps-bluemap-compass. A player sneak-right-clicks an
+waypoints published by bluemap-compass. A player sneak-right-clicks an
 allowed block (default: lodestone or banner) with any compass to create or remove
 a waypoint. Nothing teleports the player and no durability is used; the in-game
 indicator is visible only while holding a compass.

@@ -10,7 +10,7 @@ map, permissions, verified backups).
 
 This project is deliberately split in two:
 
-- **`awepeeps-minecraft-setup` (this repository) — public, generic, portable.**
+- **`minecraft-setup` (this repository) — public, generic, portable.**
   It is the template for a fresh server. It contains **no secrets, no personal
   data and no instance-specific values** — no real hostnames, IPs, ports that are
   not defaults, usernames, home-directory paths, MCSManager ids, player names or
@@ -32,8 +32,8 @@ Never merge the private repository's history into this one.
   owner-reviewed manual approval for new Java and Bedrock players.
 - Bedrock cross-play via Geyser + Floodgate.
 - ViaVersion + ViaBackwards, LuckPerms, EssentialsX Core, BlueMap,
-  BlueMap Offline Player Markers, awepeeps-chestcleaner,
-  awepeeps-bluemap-compass, and (test-only) awepeeps-spawn-kit are the selected
+  BlueMap Offline Player Markers, chestcleaner,
+  bluemap-compass, and (test-only) spawn-kit are the selected
   portable stack. BlueMap terrain can be held between scheduled render batches;
   live player and marker layers remain separate. EssentialsX Core is
   selected, but its manifest entry stays an inactive placeholder until you
@@ -50,7 +50,7 @@ Never merge the private repository's history into this one.
 ## Quick start
 
 ```bash
-git clone https://github.com/awepeeps/awepeeps-minecraft-setup.git /srv/minecraft/setup
+git clone https://github.com/awepeeps/minecraft-setup.git /srv/minecraft/setup
 cd /srv/minecraft/setup
 cp .env.example .env            # fill in; .env is gitignored
 docker compose up -d            # MCSManager panel
@@ -90,7 +90,7 @@ validation, and a secret scan.
 
 ## Contribution workflow
 
-The org repository is canonical: `awepeeps/awepeeps-minecraft-setup`, cloned as
+The org repository is canonical: `awepeeps/minecraft-setup`, cloned as
 `origin`.
 - Work on a branch in that repository and open a pull request against `main`;
   `origin` is where branches are pushed.
